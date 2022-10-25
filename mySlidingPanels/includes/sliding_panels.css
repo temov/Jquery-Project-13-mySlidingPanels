@@ -1,0 +1,107 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+body { font: 14px Arial; margin: 0px; padding: 30px; background-color: #fff; }
+a, a:visited { color: #00f; }
+h1.fpo_text { color: #3ad063; font-family: Times; font-size: 24px; font-style: oblique; }
+p.fpo_text { color: #aaa; font-family: Times; font-size: 16px; }
+
+
+.sp h2{
+    
+    font-size: 1.15em;
+    margin: 0 0 .5em 0;
+}
+
+.sp p{
+     font-size: 1.em;
+    margin: 0 0 1em 0;
+    
+}
+
+.sp{ width: 500px; position: relative; margin: 0 0 10px 25px; float: right;}
+
+.sp .tabs{position: relative; z-index: 101; display: none;}
+
+.sp .tabs span{ 
+    display: inline-block; 
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding: 8px 12px 8px 12px;
+    margin: 0px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+
+}
+.sp .tabs span:first-child{
+    
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    -webkit-border-top-left-radius:12px;
+    -moz-border-radius-topleft:12px;
+    border-top-left-radius:12px;
+}
+.sp .tabs span:last-child{
+    
+    padding-right: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    -webkit-border-top-right-radius:12px;
+    -moz-border-radius-topright:12px;
+    border-top-right-radius:12px;
+}
+
+.sp .tabs span.selected{
+    
+    color: #999;
+    border-bottom: 1px solid #fff;
+}
+.sp .panel_container{
+    
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 100;
+    margin-top: -1px;
+}
+
+.sp .panel_container .panel .panel_content{
+    
+    padding: 15px;
+}
+
+
+.sp .tabs .wiper.selected{
+
+    color: #ffce6f;
+    background-color: #3a3563;
+    border-bottom: 1px solid #3a3563;
+}
+.sp .panels .wiper .panel_content{
+    
+    background: url(../images/wipers.png) no-repeat 200px -110px; 
+}
+
+.sp .panels .wiper .panel_content h2 {color: #000; }
+.sp .panels .wiper .panel_content p { color: lightgreen; }
+.sp .panels .wiper .panel_content a { color: red;}
+
+.sp .tabs .brake.selected { color: #fff; background-color: #8dbc52; border-bottom: 1px solid #8dbc52; }
+.sp .panels .brake { background: url(../images/brake_pads.png) no-repeat 200px -100px; }
+.sp .panels .brake h2 { color: black; }
+.sp .panels .brake p { color: lightgreen; margin-right: 150px; }
+.sp .panels .brake a { color: red; }
+
+.sp .tabs .spark.selected { color: #fff; background-color: #000; border-bottom: 1px solid #000; }
+.sp .panels .spark { background: url(../images/sparkplugs.png) no-repeat 190px -80px; }
+.sp .panels .spark .panel_content { margin-right: 150px; }
+.sp .panels .spark h2 { color: #000; }
+.sp .panels .spark p { color: lightgreen; }
+.sp .panels .spark a { color: red; }
+.sp .panels .thumbnail { border: 1px solid #fff; }
+
+
+
